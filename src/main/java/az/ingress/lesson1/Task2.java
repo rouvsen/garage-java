@@ -29,7 +29,7 @@ public class Task2 {
             case "AZN" -> System.out.println(AZN * amount);
             case "USD" -> System.out.println(USD * amount);
             case "EUR" -> System.out.println(EUR * amount);
-            case "GBR" -> System.out.println(GBP * amount);
+            case "GBP" -> System.out.println(GBP * amount);
             case "TL" ->  System.out.println(TL * amount);
         }
     }
