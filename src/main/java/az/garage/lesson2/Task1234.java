@@ -1,4 +1,4 @@
-package az.ingress.lesson2;
+package az.garage.lesson2;
 
 import java.util.Scanner;
 
