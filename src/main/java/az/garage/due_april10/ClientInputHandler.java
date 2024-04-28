@@ -7,8 +7,10 @@ import java.util.Scanner;
  * @github-user: rouvsen
  * */
 public final class ClientInputHandler {
+
     private static final Scanner SCANNER = new Scanner(System.in);
     private static final String GETTING_VALUE_CONST = "Enter a value: ";
+
     public static String getInputStr() {
         printConstToConsole();
         return SCANNER.next();
