@@ -13,11 +13,12 @@ It accurately finds the exact commit that introduced an error
 
 - <h3>What are Reference Types ?</h3>
 <p>
-1) Strong type
+1) Strong type: The default type of reference, 
+Any object that has a strong reference pointing to it will not be eligible for garbage collection.
 <br>
-1) Soft type
+1) Soft type: If Garbage Collector really needs memory, it can be garbage-collected. 
 <br>
-1) Weak type
+1) Weak type: Weaker form of references, it will be collected on the next garbage collection cycle.
 <br>
-1) Phantom type
+1) Phantom type: The weakest form of references, for instance you can write a custom memory manager.
 </p>
